@@ -119,7 +119,9 @@ a.nav-link {
     margin: 5px;
     font-size: 1.2rem;
     font-family: var(--main-font-family);
-    text-align: center;
+    text-align: justify;
+    text-indent: 20px; /* Add an indent to each paragraph */
+    margin-bottom: 20px; /* Add some space between paragraphs */
 }
 
 h3 {
@@ -130,6 +132,19 @@ h3 {
     font-size: 60px;
     color: var(--main-fonts-color);
     text-shadow: 0px 0px 40px var(--main-decor-color);
+}
+
+/* Style for the text box */
+.textbox {
+    background-color: rgba(33, 33, 33, 0.7); /* Semi-transparent dark gray */
+    fill-opacity: 10%;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 100%; /* Limit width */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Drop shadow */
+    font-family: var(--main-font-family);
+    text-indent: 20px; /* Add an indent to each paragraph */
+    margin-bottom: 20px; /* Add some space between paragraphs */
 }
 
 /*──────────────────
